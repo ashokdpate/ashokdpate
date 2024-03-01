@@ -1,4 +1,32 @@
 <h1 align="center">Hi 👋, I'm Ashok Pate</h1>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <title>Test dla bannerka</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#banner-width').change(function() {
+                    var width = $('#banner-width').val();
+                    $('#banner-code').val('<div style="width: ' + width + 'px">Test</div>');
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <form action="." method="get" accept-charset="utf-8">
+            <select name="banner-width" id="banner-width">
+                <option value="100" selected="selected">100px</option>
+                <option value="200">200px</option>
+                <option value="300">300px</option>
+            </select>
+            <textarea name="banner-code" id="banner-code" rows="8" cols="40"><div style="width: 100px">Test</div></textarea>
+        </form>
+    </body>
+    
+</html>
 <h3 align="center">A passionate Fullstack developer from India</h3>
 <img align="right" alt="codeing" width="400" src="https://camo.githubusercontent.com/7de37139d0b4c1ce40865e799b446c0e963a3dd8fb68d239707237c40604fa3d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966">
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ashokdpate&label=Profile%20views&color=0e75b6&style=flat" alt="ashokdpate" /> </p>
